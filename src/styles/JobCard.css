@@ -1,0 +1,39 @@
+.job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .apply-btn {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background: #ff3e3e;
+    transform: scale(1.05);
+  }
+  
